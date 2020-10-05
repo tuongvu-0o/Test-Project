@@ -17,7 +17,7 @@ public class ReservationController {
 	}
 
 	@RequestMapping("/submitForm")
-	public String submitForm(@ModelAttribute("Reservation") Reservation res) {
+	public String submitForm(@ModelAttribute("reservation") Reservation res) {
 		return "confirmation-page";
 
 	}
