@@ -8,11 +8,11 @@ Last Name : ${reservation.lastName} <br>
 Gender: ${reservation.gender}<br>  
 Meals:   
 <ul>  
-<c:forEach var="meal" items="${reservation.food}">  
+<c:forEach items="${reservation.food}"  var="meal">  
 <li>${meal}</li>  
 </c:forEach>  
 </ul>  
 Leaving From : ${reservation.cityFrom} <br>  
 Going To : ${reservation.cityTo}  
 </body>  
-</html>  
+</html>   
